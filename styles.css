@@ -1,0 +1,135 @@
+
+
+body {
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    color: #444;
+}
+
+button {
+    background-color: rgba(208, 205, 205, 0.365);
+}
+
+button:hover {
+    background-color: rgba(163, 158, 158, 0.669);
+}
+
+button:focus {
+    outline: 0;
+}
+
+.container {
+    justify-content: center;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 100px 50px;
+    text-align: center;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+    -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#note-textarea {
+    background-color: #f7f7f700;
+    text-align: center;
+    font-family: 'Ionic Charge', sans-serif;
+}
+
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.496);
+}
+
+h1 {
+    font-family: 'Manilla Cellos', sans-serif;
+}
+
+.app h3 {
+    font-family: 'Flama Medium', sans-serif;
+
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+.page-description {
+    font-size: 1.1rem;
+    margin: 0 auto;
+}
+
+.tz-link {
+    font-size: 1em;
+    color: #1da7da;
+    text-decoration: none;
+}
+
+.no-browser-support {
+    display: none;
+    font-size: 1.2rem;
+    color: #fffaf9;
+    margin-top: 35px;
+}
+
+.app {
+    margin: 40px auto;
+}
+
+#note-textarea {
+    margin: 20px 0;
+}
+
+#recording-instructions {
+    margin: 15px auto 60px;
+}
+
+#notes {
+    padding-top: 20px;
+}
+
+.note .header {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.note .delete-note,
+.note .listen-note {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.note .content {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 25px;
+        margin: 20px 20px;
+    }
+
+    button {
+        margin-bottom: 5px;
+    }
+
+}   
+
+
+
+/* -- Demo ads -- */
+
+@media (max-width: 1200px) {
+    #bsaHolder{ display:none;}
+}
